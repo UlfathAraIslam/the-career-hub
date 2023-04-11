@@ -1,29 +1,34 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.css'
+import React from 'react';
+import { render } from 'react-dom';
+import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   createBrowserRouter,
   RouterProvider,
-} from "react-router-dom";
-import Home from './component/Layout/Main';
+} from 'react-router-dom';
+
 import Main from './component/Layout/Main';
+import Home from './component/Home/Home';
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <Main/>,
+    path: '/',
+    element: <Main />,
     children: [
       {
-        path: "/",
-        element: <Home/>
-      }
+        path: '/',
+        element: <Home />,
+        loader: ()=> fetch('jobCategories.json')
+      },
+      
     ]
-  },
+  }
 ]);
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
+

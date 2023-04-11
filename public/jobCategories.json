@@ -1,0 +1,30 @@
+
+    [
+      {
+        "name": "IT & Software",
+        "jobs": 1245,
+        "logo": "https://example.com/it-software-logo.png"
+      },
+      {
+        "name": "Engineering",
+        "jobs": 837,
+        "logo": "https://example.com/engineering-logo.png"
+      },
+      {
+        "name": "Healthcare",
+        "jobs": 327,
+        "logo": "https://example.com/healthcare-logo.png"
+      },
+      {
+        "name": "Marketing",
+        "jobs": 615,
+        "logo": "https://example.com/marketing-logo.png"
+      },
+      {
+        "name": "Finance",
+        "jobs": 1013,
+        "logo": "https://example.com/finance-logo.png"
+      }
+    ]
+  
+  
