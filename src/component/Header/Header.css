@@ -1,7 +1,15 @@
+.link-container{
+    background: #d1c9e9;
+    border-radius: 10px;
+    height: 200px;
+    padding: 20px;
+}
+
 .link-container a {
     text-decoration: none;
     margin-right: 20px;
     color: black;
+    
 }
 
 .btn {
@@ -11,4 +19,7 @@
 }
 .text-color{
     color: #9873FF;
+}
+img{
+    width: 300px;
 }

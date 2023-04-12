@@ -1,29 +1,23 @@
 
     [
-      {
+      { "id": 1,
         "name": "IT & Software",
-        "jobs": 1245,
-        "logo": "https://example.com/it-software-logo.png"
+        "jobs": 1245
+       
       },
-      {
+      {  "id": 2,
         "name": "Engineering",
-        "jobs": 837,
-        "logo": "https://example.com/engineering-logo.png"
+        "jobs": 837
       },
-      {
+      { "id": 3,
         "name": "Healthcare",
-        "jobs": 327,
-        "logo": "https://example.com/healthcare-logo.png"
+        "jobs": 327
+        
       },
-      {
+      { "id": 4,
         "name": "Marketing",
-        "jobs": 615,
-        "logo": "https://example.com/marketing-logo.png"
-      },
-      {
-        "name": "Finance",
-        "jobs": 1013,
-        "logo": "https://example.com/finance-logo.png"
+        "jobs": 615
+        
       }
     ]
   

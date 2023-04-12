@@ -9,6 +9,7 @@ import {
 
 import Main from './component/Layout/Main';
 import Home from './component/Home/Home';
+import Blog from './component/Blog/Blog';
 
 const router = createBrowserRouter([
   {
@@ -18,12 +19,21 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />,
-        loader: ()=> fetch('jobCategories.json')
+        loader: async () => {
+          const jobCategories = await fetch('/jobCategories.json').then(res => res.json());
+          const featuredJobs = await fetch('/featuredJobs.json').then(res => res.json());
+          return { jobCategories, featuredJobs };
+        }
       },
-      
+      {
+        path: '/blog',
+        element: <Blog />,
+        
+      }
     ]
   }
 ]);
+
 
 render(
   <React.StrictMode>
