@@ -10,6 +10,7 @@ import {
 import Main from './component/Layout/Main';
 import Home from './component/Home/Home';
 import Blog from './component/Blog/Blog';
+import Statistics from './component/Statistics/Statistics';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,11 @@ const router = createBrowserRouter([
       {
         path: '/blog',
         element: <Blog />,
+        
+      },
+      {
+        path: '/statistics',
+        element: <Statistics />,
         
       }
     ]

@@ -10,7 +10,7 @@ const Navigation = () => {
             <Navbar id="basic-navbar-nav">
                 <Nav className="mr-auto">
                     <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="/">Statistics</Nav.Link>
+                    <Nav.Link href="/statistics">Statistics</Nav.Link>
                     <Nav.Link href="/">Applied Jobs</Nav.Link>
                     <Nav.Link href="/blog">Blog</Nav.Link>
                 </Nav>
