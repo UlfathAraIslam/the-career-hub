@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div className='container'>
+        <div className='container mt-3'>
             <div>
                 <h3>When should you use context API?</h3>
                 <p>Context API in React should be used when you want to share data or state between multiple components that are nested deep in the component tree, without having to pass props through every intermediate component.</p>

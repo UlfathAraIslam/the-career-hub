@@ -1,24 +1,26 @@
-
-    [
-      { "id": 1,
-        "name": "IT & Software",
-        "jobs": 1245
-       
-      },
-      {  "id": 2,
-        "name": "Engineering",
-        "jobs": 837
-      },
-      { "id": 3,
-        "name": "Healthcare",
-        "jobs": 327
-        
-      },
-      { "id": 4,
-        "name": "Marketing",
-        "jobs": 615
-        
-      }
-    ]
-  
-  
+[
+  {
+    "id": 1,
+    "logo": "https://example.com/category1.png",
+    "name": "Category 1",
+    "jobsAvailable": 10
+  },
+  {
+    "id": 2,
+    "logo": "https://example.com/category2.png",
+    "name": "Category 2",
+    "jobsAvailable": 5
+  },
+  {
+    "id": 3,
+    "logo": "https://example.com/category3.png",
+    "name": "Category 3",
+    "jobsAvailable": 7
+  },
+  {
+    "id": 4,
+    "logo": "https://example.com/category4.png",
+    "name": "Category 4",
+    "jobsAvailable": 3
+  }
+]

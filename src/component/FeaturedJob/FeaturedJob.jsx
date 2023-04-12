@@ -1,7 +1,6 @@
 import React from 'react';
 import "./FeaturedJob.css"
 const FeaturedJob = ({ featuredJob }) => {
-    console.log(featuredJob)
     const { companyLogo, jobTitle, companyName, fullTimeOrPartTime, location, salary, remoteOrOnsite
     } = featuredJob;
     return (

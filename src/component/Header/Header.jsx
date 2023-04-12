@@ -9,7 +9,7 @@ const Header = () => {
         <header className=' container bg-light'>
             <section className='mt-3'>
                 <Row className='g-3'>
-                    <Col><h3>One Step <br /> Closer To Your <br /><span className='text-color'>Dream Job</span></h3>
+                    <Col className='gt-4'><h3>One Step <br /> Closer To Your <br /><span className='text-color'>Dream Job</span></h3>
                     <p>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
                     <button className='btn'>Get Started</button></Col>
                     

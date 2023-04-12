@@ -1,7 +1,12 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useLoaderData, useParams } from 'react-router-dom';
+import FeaturedJob from '../FeaturedJob/FeaturedJob';
 
 const JobDetails = () => {
+
+    const featuredJob = useLoaderData;
+
+    console.log(featuredJob);
   const { id } = useParams(); // get the job ID from the URL parameter
   // TODO: fetch job details using the ID
 
